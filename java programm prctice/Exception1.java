@@ -1,0 +1,14 @@
+public class Exception1 {
+    public static void main(String[] args) {
+        int a=23;
+        int b=0;
+        try {
+                    System.out.println(a/b);
+
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(e.toString());
+        }
+    }
+}
